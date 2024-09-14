@@ -52,3 +52,12 @@ main{
     display: block;
     padding: 10px;
 }
+
+#formulario{
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+#fomulario > p{
+    font-size: 0.9em;
+}
