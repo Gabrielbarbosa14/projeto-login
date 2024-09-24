@@ -28,6 +28,26 @@ Grandes telas: acima de 1200px
         float: right;
         width: 70%;
     }
+
+    #formulario h1, p{
+        display: block;
+    }
+
+    form{
+        margin-top: 90px;
+        height: 200px;
+        width: 580px;
+    }
+
+    form > input[type=submit] {
+        float: right;
+        width: 70%;
+    }
+
+    form > .botao {
+        float: right;
+        width: 70%;
+    }
 }
 
 @media screen and (min-width: 992px) {
@@ -54,7 +74,8 @@ Grandes telas: acima de 1200px
         font-size: 2em;
     }
 
-    #fomulario > p{
+    #formulario > p{
         font-size: 1.2em;
     }
+
 }

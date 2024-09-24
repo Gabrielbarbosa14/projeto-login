@@ -1,0 +1,115 @@
+@charset "UTF-8";
+
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #5C2B7F;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+section{
+    height: 500px;
+    width: 250px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    border-radius: 22px;
+    box-shadow: 0px 0px 9px;
+}
+
+#imagem{
+    background-image: url(../imagens/pexels-igovisuals-3681805.jpg);
+    background-size: cover;
+    height: 40%;
+    border-top-left-radius: 22px;
+    border-top-right-radius: 22px;
+}
+
+#conteudo{
+    padding: 5px;
+}
+
+#conteudo h1{
+    text-align: center;
+    margin-top: 5px;
+    margin-bottom: 4px;
+    font-size: 32px;
+}
+
+#conteudo p{
+    margin-bottom: 8px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#conteudo form .campo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #5C2B7F;
+    /*border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;*/
+    border-radius: 8px;
+    margin-bottom: 8px;
+}
+
+#conteudo form .material-symbols-outlined{
+    /*background-color: #5C2B7F;*/
+    color: white;
+    font-size: 1.2em;
+    padding: 4px;
+}
+
+#conteudo form .usuario{
+    border-radius: 8px;
+    height: 30px;
+    width: 100%;
+    background-color: #91CFCA;
+}
+
+#conteudo form .usuario:hover{
+    background-color: white;
+    transition-duration: 0.2s;
+}
+
+#enviar{
+    background-color: #4DA49D;
+    width: 100%;
+    padding: 9px;
+    border: 0px;
+    color: white;
+    border-radius: 8px;
+}
+
+#enviar:hover{
+    background-color: #2f6461;
+    cursor: pointer;
+    transition-duration: 0.2s;
+}
+
+form p{
+    text-align: center;
+    background-color: #9cebca;
+    border: #093633;
+    margin-top: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+}
+
+form a{
+    color: #2f6461;
+    text-decoration: none;
+}
+
+form p:hover{
+    background-color: #2f6461;
+    color: white;
+    transition-duration: 0.2s;
+}
